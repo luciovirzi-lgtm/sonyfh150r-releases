@@ -24,6 +24,7 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 - **Amplificatore** — analizzatore di spettro a 7 bande, volume, muting e **AMFB** per bassi più profondi.
 - **Equalizzatore** grafico a 7 bande con preset (Rock, Pop, Jazz, Classica…).
 - **Piastra a cassette** — le playlist appaiono nella finestra della cassetta, con le bobine che girano; tasto **REC** per **registrare la radio in MP3**.
+- **Modalità mini** — clic sul POWER del lettore CD: l'impianto sparisce e resta solo una voce nella barra dei menu con ▶/■ e il titolo in ascolto.
 - **Manuale** completo dentro l'app: clic sulla scritta dorata **FH-150R**.
 - …e una sorpresa nascosta da qualche parte sul pannello. 😉
 
@@ -47,7 +48,8 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 | Ascoltare la radio | **TUNER** sull'amplificatore, poi i tasti **PRESET 1–5** |
 | Cercare una stazione | clic sul display ambra del tuner |
 | Registrare la radio | **REC** sulla piastra; di nuovo **REC** per salvare in *Musica › FH150R Registrazioni* |
-| Chiudere l'app | doppio clic su **POWER** |
+| Ridurre alla barra dei menu | **POWER** del lettore CD (in alto a sinistra); *Mostra impianto* per tornare |
+| Chiudere l'app | doppio clic sul **POWER** dell'amplificatore |
 
 ## Privacy
 
