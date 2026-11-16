@@ -1,22 +1,60 @@
-# Sony FH 150R
+<p align="center">
+  <img src="docs/screenshot.png" alt="Sony FH 150R per macOS" width="420">
+</p>
 
-*An mp3 player with a classic design — a macOS music player, web radio and recorder whose window is a photo of the 1980s Sony FH-150R hi-fi stack.*
+<h1 align="center">Sony FH 150R per macOS</h1>
 
-Lettore musicale per macOS ispirato all'impianto Sony FH-150R: la finestra **è** la fotografia dell'impianto e ogni tasto, manopola e cursore funziona.
+<p align="center"><b>Lettore MP3, web radio e registratore con l'aspetto di un impianto hi-fi del 1987.</b><br>
+<i>An MP3 player, web radio and recorder for macOS that looks and works like a 1987 hi-fi stack.</i></p>
 
-## Funzioni
+<p align="center">
+  <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R.dmg"><b>⬇︎ Scarica l'ultima versione (.dmg)</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest">Note di rilascio</a>
+</p>
 
-- **Lettore CD** — MP3 con riproduzione gapless, display VFD a 7 segmenti e matrice di punti, shuffle, repeat.
-- **Tuner** — web radio (Icecast/Shoutcast e HLS, MP3/AAC) con ricerca su [Radio Browser](https://www.radio-browser.info), 10 preset, LCD a 14 segmenti con imitazione RDS (PS, PTY, RadioText).
-- **Amplificatore** — analizzatore di spettro a 7 bande, volume, muting, AMFB simulato (bassi profondi), selezione sorgente.
-- **Equalizzatore** grafico a 7 bande con preamp, balance e preset.
-- **Piastra** — playlist nella finestra della cassetta (con bobine animate), import/export M3U, registrazione della radio in MP3 (LAME).
-- Manuale d'uso integrato (clic sulla scritta FH-150R o ⌘?).
+---
 
-## Requisiti
+La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e cursore funziona davvero, e display, LED e spie si accendono come sull'originale.
 
-macOS 13 o successivo (Intel o Apple Silicon). Per compilare: Xcode 15, [XcodeGen](https://github.com/yonaskolb/XcodeGen), Python 3 con Pillow e NumPy (solo per rigenerare le immagini).
+## Cosa fa
+
+- **Lettore CD** — i tuoi MP3, senza pause tra un brano e l'altro; display fluorescente con titolo, artista e tempo; shuffle e ripetizione.
+- **Tuner** — migliaia di **radio via internet** (anche Radio Deejay, Rai, RTL, Virgin…); ricerca per nome, 10 preset, display **RDS** con nome della stazione, genere e titolo in onda.
+- **Amplificatore** — analizzatore di spettro a 7 bande, volume, muting e **AMFB** per bassi più profondi.
+- **Equalizzatore** grafico a 7 bande con preset (Rock, Pop, Jazz, Classica…).
+- **Piastra a cassette** — le playlist appaiono nella finestra della cassetta, con le bobine che girano; tasto **REC** per **registrare la radio in MP3**.
+- **Manuale** completo dentro l'app: clic sulla scritta dorata **FH-150R**.
+- …e una sorpresa nascosta da qualche parte sul pannello. 😉
+
+## Installazione
+
+1. **Scarica** [`Sony-FH150R.dmg`](https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R.dmg) e aprilo.
+2. **Trascina** *Sony FH 150R* nella cartella **Applicazioni**.
+3. **Primo avvio:** l'app non è firmata con un certificato Apple, quindi macOS la blocca la prima volta.
+   - **macOS 15 Sequoia e successivi:** prova ad aprire l'app, poi vai in *Impostazioni di Sistema › Privacy e sicurezza*, scorri in basso e premi **Apri comunque**.
+   - **macOS 13–14:** *clic destro sull'app › Apri › Apri*.
+
+   Serve solo la prima volta. Per aggiornare, scarica la nuova versione e sostituisci l'app: playlist e impostazioni restano.
+
+**Requisiti:** macOS 13 Ventura o successivo · Mac Intel o Apple Silicon · connessione a internet per la radio.
+
+## Primi passi
+
+| Per… | Fai così |
+|---|---|
+| Ascoltare i tuoi MP3 | **EJECT** sulla piastra → scegli una cartella → **play** |
+| Ascoltare la radio | **TUNER** sull'amplificatore, poi i tasti **PRESET 1–5** |
+| Cercare una stazione | clic sul display ambra del tuner |
+| Registrare la radio | **REC** sulla piastra; di nuovo **REC** per salvare in *Musica › FH150R Registrazioni* |
+| Chiudere l'app | doppio clic su **POWER** |
+
+## Privacy
+
+L'app non raccoglie dati. Per cercare le stazioni invia solo il testo della ricerca all'archivio pubblico [Radio Browser](https://www.radio-browser.info); l'audio arriva direttamente dalle emittenti.
 
 ## Note legali
 
-Progetto personale, non affiliato né approvato da Sony. Sony, FH-150R e la fotografia dell'impianto appartengono ai rispettivi proprietari. L'encoder MP3 LAME è distribuito con licenza GNU LGPL (vedi `tools/build_lame.sh`).
+Progetto personale e gratuito, **non affiliato né approvato da Sony**. Sony, FH-150R e la fotografia dell'impianto appartengono ai rispettivi proprietari.
+L'app include l'encoder MP3 [LAME](https://lame.sourceforge.io) (GNU LGPL) come libreria separata e sostituibile; testo della licenza e istruzioni sono nella cartella *Licenze* del file `.dmg`.
+Le registrazioni sono per uso personale: rispetta i diritti delle emittenti e degli autori.
