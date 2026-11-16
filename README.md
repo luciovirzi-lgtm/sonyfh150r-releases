@@ -25,6 +25,7 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 - **Equalizzatore** grafico a 7 bande con preset (Rock, Pop, Jazz, Classica…).
 - **Piastra a cassette** — le playlist appaiono nella finestra della cassetta, con le bobine che girano; tasto **REC** per **registrare la radio in MP3**.
 - **Modalità mini** — clic sul POWER del lettore CD: l'impianto sparisce e resta solo una voce nella barra dei menu con ▶/■ e il titolo in ascolto.
+- **Trascina e ascolta** — un MP3 trascinato sulla finestra o sull'icona nel Dock (o aperto con *Apri con*) parte subito sul lettore CD.
 - **Manuale** completo dentro l'app: clic sulla scritta dorata **FH-150R**.
 - …e una sorpresa nascosta da qualche parte sul pannello. 😉
 
