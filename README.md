@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/screenshot.png" alt="Sony FH 150R per macOS" width="420">
+  <img src="docs/screenshot.png" alt="FH-150R Tribute per macOS" width="420">
 </p>
 
-<h1 align="center">Sony FH 150R per macOS</h1>
+<h1 align="center">FH-150R Tribute per macOS</h1>
 
 <p align="center"><b>Lettore MP3, web radio e registratore con l'aspetto di un impianto hi-fi del 1987.</b><br>
 <i>An MP3 player, web radio and recorder for macOS that looks and works like a 1987 hi-fi stack.</i></p>
@@ -30,12 +30,12 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 ## Installazione
 
 1. **Scarica** [`Sony-FH150R.dmg`](https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R.dmg) e aprilo.
-2. **Trascina** *Sony FH 150R* nella cartella **Applicazioni**.
+2. **Trascina** *FH-150R Tribute* nella cartella **Applicazioni**.
 3. **Primo avvio:** l'app non è firmata con un certificato Apple, quindi macOS la blocca la prima volta.
    - **macOS 15 Sequoia e successivi:** prova ad aprire l'app, poi vai in *Impostazioni di Sistema › Privacy e sicurezza*, scorri in basso e premi **Apri comunque**.
    - **macOS 13–14:** *clic destro sull'app › Apri › Apri*.
 
-   Serve solo la prima volta. Per aggiornare, scarica la nuova versione e sostituisci l'app: playlist e impostazioni restano.
+   Serve solo la prima volta. Per aggiornare, scarica la nuova versione e sostituisci l'app: playlist e impostazioni restano. Se avevi la 1.0.3 o precedenti (si chiamava *Sony FH 150R*), sposta la vecchia app nel Cestino.
 
 **Requisiti:** macOS 13 Ventura o successivo · Mac Intel o Apple Silicon · connessione a internet per la radio.
 
@@ -55,6 +55,6 @@ L'app non raccoglie dati. Per cercare le stazioni invia solo il testo della rice
 
 ## Note legali
 
-Progetto personale e gratuito, **non affiliato né approvato da Sony**. Sony, FH-150R e la fotografia dell'impianto appartengono ai rispettivi proprietari.
+Progetto amatoriale e gratuito, **non affiliato né approvato da Sony**. Sony e FH-150R sono marchi dei rispettivi proprietari; il nome del modello è citato solo per indicare l'impianto a cui l'app rende omaggio. La fotografia dell'impianto appartiene al suo autore.
 L'app include l'encoder MP3 [LAME](https://lame.sourceforge.io) (GNU LGPL) come libreria separata e sostituibile; testo della licenza e istruzioni sono nella cartella *Licenze* del file `.dmg`.
 Le registrazioni sono per uso personale: rispetta i diritti delle emittenti e degli autori.
