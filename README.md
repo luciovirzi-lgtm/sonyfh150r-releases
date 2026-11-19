@@ -46,6 +46,8 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 
 **Requisiti:** macOS 13 Ventura o successivo · Mac Intel o Apple Silicon.
 
+**Hai un Mac fermo a macOS 12 Monterey?** Scarica invece [`Sony-FH150R-macOS12.dmg`](https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R-macOS12.dmg): è una versione separata con le stesse funzioni (primo avvio: *clic destro sull'app › Apri › Apri*).
+
 ### Windows
 1. **Scarica** [`FH-150R-Tribute-Setup.exe`](https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/FH-150R-Tribute-Setup.exe) e aprilo.
 2. Se Windows mostra **«Windows ha protetto il PC»**, fai clic su **Ulteriori informazioni › Esegui comunque** (l'installer non è firmato con un certificato).
