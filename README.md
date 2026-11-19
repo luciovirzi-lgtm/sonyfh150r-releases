@@ -1,16 +1,18 @@
 <p align="center">
-  <img src="docs/screenshot.png" alt="FH-150R Tribute per macOS e Windows" width="420">
+  <img src="docs/screenshot.png" alt="FH-150R Tribute per macOS, Windows e Android" width="420">
 </p>
 
-<h1 align="center">FH-150R Tribute per macOS e Windows</h1>
+<h1 align="center">FH-150R Tribute per macOS, Windows e Android</h1>
 
 <p align="center"><b>Lettore MP3, web radio e registratore con l'aspetto di un impianto hi-fi del 1987.</b><br>
-<i>An MP3 player, web radio and recorder for macOS and Windows that looks and works like a 1987 hi-fi stack.</i></p>
+<i>An MP3 player, web radio and recorder for macOS, Windows and Android that looks and works like a 1987 hi-fi stack.</i></p>
 
 <p align="center">
   <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R.dmg"><b>⬇︎ Scarica per Mac (.dmg)</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/FH-150R-Tribute-Setup.exe"><b>⬇︎ Scarica per Windows (.exe)</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/FH-150R-Tribute.apk"><b>⬇︎ Scarica per Android (.apk)</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest">Note di rilascio</a>
 </p>
@@ -51,7 +53,16 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 
 **Requisiti:** Windows 10 (1809 o successivo) o Windows 11, a 64 bit.
 
-Entrambe le versioni richiedono una connessione a internet per la radio. Su Windows i menu si aprono con il **clic destro** sull'impianto.
+### Android
+1. **Scarica** [`FH-150R-Tribute.apk`](https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/FH-150R-Tribute.apk) sul telefono e aprilo.
+2. Android chiede di **consentire l'installazione** da quell'origine (browser o Gestione file): concedi il permesso. Se compare **Play Protect** (l'app non viene dal Play Store), scegli *Installa comunque*.
+3. Al primo avvio consenti le **notifiche**: servono ai comandi sulla schermata di blocco. Per aggiornare basta installare la nuova versione sopra la vecchia.
+
+Sul telefono: doppio tocco su una zona senza tasti (o due dita) per ingrandire, tocco sulla cassetta per la playlist, tocco sul display del tuner per cercare le stazioni, widget per la schermata Home. Sui telefoni Xiaomi, Huawei e Samsung, se la musica si ferma a schermo spento: *Impostazioni › App › FH-150R Tribute › Batteria › Nessuna restrizione*.
+
+**Requisiti:** Android 8 o successivo.
+
+Tutte le versioni richiedono una connessione a internet per la radio. Su Windows i menu si aprono con il **clic destro** sull'impianto.
 
 ## Primi passi
 
@@ -71,5 +82,5 @@ L'app non raccoglie dati. Per cercare le stazioni invia solo il testo della rice
 ## Note legali
 
 Progetto amatoriale e gratuito, **non affiliato né approvato da Sony**. Sony e FH-150R sono marchi dei rispettivi proprietari; il nome del modello è citato solo per indicare l'impianto a cui l'app rende omaggio. La fotografia dell'impianto appartiene al suo autore.
-La versione Mac include l'encoder MP3 [LAME](https://lame.sourceforge.io) (GNU LGPL) come libreria separata e sostituibile; testo della licenza e istruzioni sono nella cartella *Licenze* del file `.dmg`. La versione Windows usa [NAudio](https://github.com/naudio/NAudio) (licenza MIT) e i decoder e l'encoder MP3 di Windows; licenze nella cartella *Licenze* dell'app installata.
+La versione Mac include l'encoder MP3 [LAME](https://lame.sourceforge.io) (GNU LGPL) come libreria separata e sostituibile; testo della licenza e istruzioni sono nella cartella *Licenze* del file `.dmg`. La versione Windows usa [NAudio](https://github.com/naudio/NAudio) (licenza MIT) e i decoder e l'encoder MP3 di Windows; licenze nella cartella *Licenze* dell'app installata. La versione Android usa [AndroidX Media3](https://developer.android.com/media/media3) (licenza Apache 2.0) e i decoder e l'encoder AAC di Android.
 Le registrazioni sono per uso personale: rispetta i diritti delle emittenti e degli autori.
