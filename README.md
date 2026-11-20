@@ -29,7 +29,7 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 - **Equalizzatore** grafico a 7 bande con preset (Rock, Pop, Jazz, Classica…).
 - **Piastra a cassette** — le playlist appaiono nella finestra della cassetta, con le bobine che girano; tasto **REC** per **registrare la radio in MP3**.
 - **Modalità mini** — clic sul POWER del lettore CD: l'impianto sparisce e resta solo una voce nella barra dei menu con ▶/■ e il titolo in ascolto, che scorre se è lungo; il suo menu mostra l'avanzamento del brano.
-- **Cerca brano** (Mac e Windows) — tasto **PHONO**: cerca in tutte le playlist per titolo, artista o nome del file, anche con parole a metà, e suona subito il brano scelto.
+- **Cerca brano** — tasto **PHONO**: cerca in tutte le playlist per titolo, artista o nome del file, anche con parole a metà, e suona subito il brano scelto.
 - **Trascina e ascolta** — un MP3 trascinato sulla finestra o sull'icona nel Dock (o aperto con *Apri con*) parte subito sul lettore CD.
 - **Manuale** completo dentro l'app: clic sulla scritta dorata **FH-150R**.
 - …e una sorpresa nascosta da qualche parte sul pannello. 😉
@@ -74,7 +74,7 @@ Tutte le versioni richiedono una connessione a internet per la radio. Su Windows
 | Ascoltare i tuoi MP3 | **EJECT** sulla piastra → scegli una cartella → **play** |
 | Ascoltare la radio | **TUNER** sull'amplificatore, poi i tasti **PRESET 1–5** |
 | Cercare una stazione | clic sul display ambra del tuner |
-| Cercare un brano nelle playlist (Mac e Windows) | **PHONO** sull'amplificatore, oppure ⇧⌘F (Ctrl+Maiusc+F su Windows) |
+| Cercare un brano nelle playlist | **PHONO** sull'amplificatore, oppure ⇧⌘F (Ctrl+Maiusc+F su Windows) |
 | Registrare la radio | **REC** sulla piastra; di nuovo **REC** per salvare in *Musica › FH150R Registrazioni* |
 | Ridurre alla barra dei menu | **POWER** del lettore CD (in alto a sinistra); *Mostra impianto* per tornare |
 | Chiudere l'app | doppio clic sul **POWER** dell'amplificatore |
