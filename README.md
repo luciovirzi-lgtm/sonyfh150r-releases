@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="docs/screenshot.png" alt="FH-150R Tribute per macOS, Windows e Android" width="420">
+  <img src="docs/screenshot.png" alt="FH-150R Tribute per macOS, Windows, Android e browser" width="420">
 </p>
 
-<h1 align="center">FH-150R Tribute per macOS, Windows e Android</h1>
+<h1 align="center">FH-150R Tribute per macOS, Windows, Android e browser</h1>
 
 <p align="center"><b>Lettore MP3, web radio e registratore con l'aspetto di un impianto hi-fi del 1987.</b><br>
-<i>An MP3 player, web radio and recorder for macOS, Windows and Android that looks and works like a 1987 hi-fi stack.</i></p>
+<i>An MP3 player, web radio and recorder for macOS, Windows, Android and the web that looks and works like a 1987 hi-fi stack.</i></p>
 
 <p align="center">
   <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R.dmg"><b>⬇︎ Scarica per Mac (.dmg)</b></a>
@@ -15,6 +15,10 @@
   <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/FH-150R-Tribute.apk"><b>⬇︎ Scarica per Android (.apk)</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest">Note di rilascio</a>
+</p>
+
+<p align="center">
+  <a href="https://fh150r.vercel.app"><b>▶︎ Apri nel browser: iPhone, iPad e qualsiasi telefono</b></a>
 </p>
 
 ---
@@ -35,6 +39,27 @@ La finestra dell'app **è** la fotografia dell'impianto: ogni tasto, manopola e 
 - …e una sorpresa nascosta da qualche parte sul pannello. 😉
 
 ## Installazione
+
+### Nel browser: iPhone, iPad e qualsiasi telefono
+Apri **[fh150r.vercel.app](https://fh150r.vercel.app)**. Non serve installare niente e funziona su **tutti i telefoni e tablet** con un browser aggiornato (iPhone, iPad, Android di qualsiasi marca), e anche su Mac e PC. È l'unico modo per usare FH-150R Tribute su **iPhone e iPad**.
+
+- **Installala come app** per averla con la sua icona, a tutto schermo:
+  - **iPhone e iPad:** in Safari tocca *Condividi › Aggiungi alla schermata Home*. È consigliato: i brani copiati restano al sicuro.
+  - **Android e computer (Chrome, Edge):** pulsante **Installa l'app** sotto l'impianto, oppure il menu del browser › *Installa app*.
+- **Musica:** con **EJECT** scegli gli MP3 (su iPhone dall'app File). Vengono **copiati nell'app** e restano lì: alla riapertura ritrovi playlist, brano e punto in cui eri. La tua musica non viene mai caricata su internet.
+- Dopo il primo avvio l'app si apre **anche senza rete**: musica copiata ed equalizzatore funzionano, la radio no.
+- **Aggiornamenti automatici:** la nuova versione si scarica da sola e si attiva alla successiva apertura.
+
+Ha le stesse funzioni delle altre versioni: impianto completo, lettore senza pause tra i brani, equalizzatore, AMFB, spettro, radio con preset e RDS, Cerca brano, cassetta a tutto schermo, schermata di blocco e manuale. **Limitazioni** rispetto alle app per Mac, Windows e Android, dovute a quello che i browser permettono:
+
+- **I brani vanno copiati nell'app**: il browser non può leggere direttamente una cartella del telefono, quindi gli MP3 occupano spazio una seconda volta. Formato supportato: MP3.
+- **iPhone e iPad: installala sulla Home.** Se il sito non è installato e non viene aperto per alcune settimane, iOS può cancellarne la memoria, brani copiati compresi. L'app sulla Home e Safari hanno memorie separate: importa i brani da quella che usi.
+- **Radio senza equalizzatore:** il browser lascia passare una stazione dall'equalizzatore, dallo spettro e da REC solo se la stazione lo permette; le altre suonano lo stesso, ma «dirette». **Su iPhone e iPad tutte le radio suonano dirette:** l'equalizzatore vale solo per i tuoi MP3 e la radio **non si può registrare**.
+- **Alcune stazioni non suonano:** quelle che hanno solo un indirizzo `http` (l'app cerca da sola una versione `https`; se non c'è, l'LCD mostra *SOLO HTTP*). Le stazioni HLS (Radio Deejay, RTL 102.5…) suonano su iPhone, iPad e Android, ma non in Chrome e Firefox sul computer.
+- **Registrazioni** in AAC (.m4a) o Opus (.webm) secondo il browser, salvate dentro l'app nella playlist *Registrazioni* (non nella cartella Musica).
+- **Niente** widget, modalità mini nella barra dei menu, *Apri con* e trascinamento dei file; su iPhone la schermata di blocco non mostra l'icona dell'app.
+
+**Requisiti:** iPhone e iPad con iOS 17 o successivo (Safari) · Android con Chrome aggiornato · Chrome, Edge, Firefox o Safari recenti su computer.
 
 ### Mac
 1. **Scarica** [`Sony-FH150R.dmg`](https://github.com/luciovirzi-lgtm/sonyfh150r-releases/releases/latest/download/Sony-FH150R.dmg) e aprilo.
@@ -65,7 +90,7 @@ Sul telefono: doppio tocco su una zona senza tasti (o due dita) per ingrandire, 
 
 **Requisiti:** Android 8 o successivo.
 
-Tutte le versioni richiedono una connessione a internet per la radio. Su Windows i menu si aprono con il **clic destro** sull'impianto.
+Tutte le versioni, compresa quella web, richiedono una connessione a internet per la radio. Su Windows i menu si aprono con il **clic destro** sull'impianto.
 
 ## Primi passi
 
@@ -82,9 +107,10 @@ Tutte le versioni richiedono una connessione a internet per la radio. Su Windows
 ## Privacy
 
 L'app non raccoglie dati. Per cercare le stazioni invia solo il testo della ricerca all'archivio pubblico [Radio Browser](https://www.radio-browser.info); l'audio arriva direttamente dalle emittenti.
+La versione web non usa cookie né statistiche e i brani copiati restano sul dispositivo; è ospitata da Vercel, e per mostrare il titolo in onda l'indirizzo della stazione in ascolto passa da una piccola funzione del sito, che legge il titolo e chiude subito.
 
 ## Note legali
 
 Progetto amatoriale e gratuito, **non affiliato né approvato da Sony**. Sony e FH-150R sono marchi dei rispettivi proprietari; il nome del modello è citato solo per indicare l'impianto a cui l'app rende omaggio. La fotografia dell'impianto appartiene al suo autore.
-La versione Mac include l'encoder MP3 [LAME](https://lame.sourceforge.io) (GNU LGPL) come libreria separata e sostituibile; testo della licenza e istruzioni sono nella cartella *Licenze* del file `.dmg`. La versione Windows usa [NAudio](https://github.com/naudio/NAudio) (licenza MIT) e i decoder e l'encoder MP3 di Windows; licenze nella cartella *Licenze* dell'app installata. La versione Android usa [AndroidX Media3](https://developer.android.com/media/media3) (licenza Apache 2.0) e i decoder e l'encoder AAC di Android.
+La versione Mac include l'encoder MP3 [LAME](https://lame.sourceforge.io) (GNU LGPL) come libreria separata e sostituibile; testo della licenza e istruzioni sono nella cartella *Licenze* del file `.dmg`. La versione Windows usa [NAudio](https://github.com/naudio/NAudio) (licenza MIT) e i decoder e l'encoder MP3 di Windows; licenze nella cartella *Licenze* dell'app installata. La versione Android usa [AndroidX Media3](https://developer.android.com/media/media3) (licenza Apache 2.0) e i decoder e l'encoder AAC di Android. La versione web usa la Web Audio API e i decoder e il registratore del browser.
 Le registrazioni sono per uso personale: rispetta i diritti delle emittenti e degli autori.
