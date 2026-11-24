@@ -54,7 +54,7 @@ Ha le stesse funzioni delle altre versioni: impianto completo, lettore senza pau
 
 - **I brani vanno copiati nell'app**: il browser non può leggere direttamente una cartella del telefono, quindi gli MP3 occupano spazio una seconda volta. Formato supportato: MP3.
 - **iPhone e iPad: installala sulla Home.** Se il sito non è installato e non viene aperto per alcune settimane, iOS può cancellarne la memoria, brani copiati compresi. L'app sulla Home e Safari hanno memorie separate: importa i brani da quella che usi.
-- **Radio senza equalizzatore:** il browser lascia passare una stazione dall'equalizzatore, dallo spettro e da REC solo se la stazione lo permette; le altre suonano lo stesso, ma «dirette». **Su iPhone e iPad tutte le radio suonano dirette:** l'equalizzatore vale solo per i tuoi MP3 e la radio **non si può registrare**.
+- **Radio ed equalizzatore:** l'equalizzatore, l'AMFB e lo spettro funzionano **anche con la radio**, su iPhone come sugli altri telefoni. Fanno eccezione le stazioni che non permettono al browser di leggere il loro audio: quelle suonano lo stesso, ma «dirette», senza equalizzatore e senza REC (la striscia sotto l'impianto lo segnala).
 - **Alcune stazioni non suonano:** quelle che hanno solo un indirizzo `http` (l'app cerca da sola una versione `https`; se non c'è, l'LCD mostra *SOLO HTTP*). Le stazioni HLS (Radio Deejay, RTL 102.5…) suonano su iPhone, iPad e Android, ma non in Chrome e Firefox sul computer.
 - **Registrazioni** in AAC (.m4a) o Opus (.webm) secondo il browser, salvate dentro l'app nella playlist *Registrazioni* (non nella cartella Musica).
 - **Niente** widget, modalità mini nella barra dei menu, *Apri con* e trascinamento dei file; su iPhone la schermata di blocco non mostra l'icona dell'app.
